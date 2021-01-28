@@ -1,0 +1,18 @@
+{
+  "name": "zenzai-fe",
+  "version": "0.0.0",
+  "license": "UNLICENCED",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html --port 2345",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "react-router-dom": "^5.1.2",
+    "recharts": "^1.8.5",
+    "socket.io-client": "^2.3.0"
+  }
+}
