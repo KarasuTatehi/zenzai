@@ -3,14 +3,14 @@ version: '3'
 services:
 
   backend:
-    build: 81no/zenzai-be
+    build: ./backend
     env_file: ./be.env
     restart: always
     ports:
       - 3000:3000
 
   frontend:
-    image: 81no/zenzai-fe
+    build: ./frontend
     env_file: ./fe.env
     restart: always
     ports:
