@@ -1,4 +1,4 @@
-FROM node:13-stretch
+FROM node:14
 WORKDIR /app
 
 RUN apt-get update
