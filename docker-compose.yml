@@ -3,6 +3,7 @@ version: '3'
 services:
 
   backend:
+    container_name: backend
     build: ./backend
     env_file: ./be.env
     restart: always
@@ -10,6 +11,7 @@ services:
       - 3000:3000
 
   frontend:
+    container_name: frontend
     build: ./frontend
     env_file: ./fe.env
     restart: always
