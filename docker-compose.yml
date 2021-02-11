@@ -9,6 +9,7 @@ services:
     restart: always
     ports:
       - 3000:3000
+    tty: true
 
   frontend:
     container_name: frontend
@@ -17,3 +18,4 @@ services:
     restart: always
     ports:
       - 2345:2345
+    tty: true
