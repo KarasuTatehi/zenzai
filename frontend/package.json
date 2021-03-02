@@ -1,6 +1,6 @@
 {
   "name": "zenzai-fe",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "license": "UNLICENCED",
   "private": true,
   "scripts": {
@@ -8,7 +8,18 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
+    "parcel": "nightly"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.612",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.612",
+    "@parcel/packager-css": "2.0.0-nightly.612",
+    "@parcel/packager-html": "2.0.0-nightly.612",
+    "@parcel/transformer-css": "2.0.0-nightly.612",
+    "@parcel/transformer-html": "2.0.0-nightly.612",
+    "@parcel/transformer-postcss": "2.0.0-nightly.612",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.612",
+    "postcss": "^8.2.1",
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
     "react-router-dom": "^5.1.2",
