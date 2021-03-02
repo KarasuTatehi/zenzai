@@ -9,7 +9,7 @@ RUN apt-get update \
    && rm -rf /var/lib/apt/lists/*
 
 COPY . /app/
-RUN npm install
+RUN yarn install
 
 EXPOSE 2345
 CMD node app.js
